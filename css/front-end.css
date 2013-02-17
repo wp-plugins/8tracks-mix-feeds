@@ -1,0 +1,63 @@
+.mix-feed-container
+{
+	margin: 35px;
+	clear: both;
+	float: left;
+}
+
+.mix-feed-container, .mix-feed-container a
+{
+	width: auto;
+	height: auto;
+	float: left;
+	text-decoration: none;
+	position: relative;
+}
+
+.mix-feed-container, .mix-feed-container a, .mix-feed-item
+{
+	margin: 0;
+	padding: 0;
+}
+
+.mix-feed-container a
+{
+	background-color: black;
+}
+
+.mix-feed-container h2
+{
+	font-size: 2em;
+	margin-left: 0 !important;
+}
+
+.mix-feed-item
+{
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.mix-feed-item:hover 
+{
+  -webkit-opacity: 0.4;
+  -moz-opacity: 0.4;
+  opacity: 0.4;
+}
+
+.mix-feed-item-link  h2
+{
+	font-size: 1.3em;
+	text-decoration: none;
+	text-shadow: none;
+	margin-left: 8px;
+	margin-right: 5px;
+	line-height: 1;
+	color: #FFFFFF !important;
+	position: absolute;
+	top: 5px;
+	font-weight: bold;
+}
